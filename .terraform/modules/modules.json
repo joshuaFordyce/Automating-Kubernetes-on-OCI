@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"vcn","Source":"registry.terraform.io/oracle-terraform-modules/vcn/oci","Version":"3.1.0","Dir":".terraform/modules/vcn"},{"Key":"vcn.drg_from_vcn_module","Source":"./modules/drg","Dir":".terraform/modules/vcn/modules/drg"}]}
