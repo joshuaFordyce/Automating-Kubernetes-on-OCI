@@ -24,12 +24,12 @@ resource "oci_containerengine_node_pool" "oke-node-pool" {
 		}
 		size = 3
 	}
-	node_shape = "VM.Standard2.1"
+	node_shape = "VM.Standard.E4.Flex"
 
 	#Using image Oracle-Linux-7.x-<date>
 	
 	node_source_details {
-		image_id = "ocid1.image.oc1.iad.aaaaaaaamc2xy64p4r4tcwjy26ksdkehrdrzjcacw4upaq7fnqict55as4kq"
+		image_id = "ocid1.image.oc1.iad.aaaaaaaairuqkf7p2b37jpyklvnqhxxlhyr3fpk55jmi5yklnkdrbsao7msa"
 		source_type = "image"
 	}
 
